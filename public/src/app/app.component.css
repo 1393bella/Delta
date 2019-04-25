@@ -1,0 +1,220 @@
+#banana{
+    font-family: 'Quicksand', sans-serif;
+}
+.threeLinks{
+    display: inline-block;
+    margin-right:15px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.threeLinks:hover, .active{
+    border-top: 2px solid black;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(102, 95, 95);
+}
+
+a:hover, header nav.menu .menu-item.active > a, #sidebar .menu-item.active>a, .gallery-nav a:hover {
+    color: rgba(0, 0, 0, 1);
+    opacity:1;
+}
+
+header.layout-logo-center .threeLinks {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* copyright */
+#footer, #footerDesign{
+    text-align: center;
+    margin-top:25px;
+    
+}
+
+#footer{
+    
+    text-align: center;
+    border-top: 2px solid black;
+    width:250px;
+    margin-left: 577px;
+    
+}
+
+
+/* animation code for drawing svg below*/
+
+body {
+    background-color: white;
+  }
+  
+  #loginbox {
+    margin-top: 30px;
+  }
+  
+  #loginbox > div:first-child {        
+    padding-bottom: 10px;    
+  }
+  
+  .iconmelon {
+    display: block;
+    margin: auto;
+  }
+  
+  #form > div {
+    margin-bottom: 25px;
+  }
+  
+  #form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .panel {    
+    background-color: ffffff;
+  }
+  
+  .panel-body {
+    padding-top: 30px;
+    background-color: rgba(2555,255,255,.3);
+  }
+  
+  #particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+  }
+  
+  .iconmelon,
+  .im {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: block;
+  fill: #525151;
+  }
+  
+  .iconmelon:after,
+  .im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+  
+/* icon spinning animation starts */
+  /* footer social icons */
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+  }
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  
+  
+  
+  /* contact  */
+   #contact .card:hover i,#contact .card:hover h4{
+    color: red;
+  }
+  
+  #contact{
+    background-color: rgb(196, 238, 252);
+  }
+  
+  
+  
+  /* footer social icons */
+  .social-network a.icoRss:hover {
+    background-color: #F56505;
+  }
+  .social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+  }
+  .social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+  }
+  .social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+  }
+  .social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+  }
+  .social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+  }
+  .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+  .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+  }
+  a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+  }
+  
+  .social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 70px;
+    height: 70px;
+    font-size:40px;
+  }
+  .social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  a {
+   background-color: #D3D3D3;   
+  }
+  
+  /* social icons ends */
+
+
+
+  
+  

@@ -1,0 +1,152 @@
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" -->
+  <!-- crossorigin="anonymous"> -->
+
+ <!-- <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Homenaje|Oswald|Teko" rel="stylesheet"> --> -->
+
+
+<h2 style="text-align:center">Project Details</h2>
+
+<br>
+<br>
+<br>
+
+<table class="table hero-bkg-animated" style="text-align: center" >
+  <thead>
+    <tr>
+      <th scope="col">Project</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <tr>
+      <td scope="row">{{projectToShow.name}}</td>
+      <td scope="row">{{projectToShow.description}}</td>
+
+      <!-- in case if i want to display them in a table order , code below-->
+      <!-- <td scope="row"><img class="imgSize" src="{{projectToShow.gallery1}}"></td> 
+      <td scope="row"><img class="imgSize" src="{{projectToShow.gallery2}}"></td> <br>
+      <td scope="row"><img class="imgSize" src="{{projectToShow.gallery3}}"></td> -->
+
+    </tr>
+  </tbody>
+
+  <div class="buttonDesign">
+
+    <button class="twoButton" style="text-align: right" type="button" class="btn btn-dark" (click)="deleteProject(projectToShow._id)">Delete</button>
+
+    <button class="twoButton" class="btn btn-secondary" [routerLink]="['/home']">Back</button>
+
+  </div>
+
+
+
+</table>
+
+
+
+<!-- slider -->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<!-- We will make a simple accordian with hover effects 
+The markup will have a list with images and the titles-->
+<div class="accordian">
+  <ul>
+    <li>
+      <div class="image_title">
+        <a >Full View</a>
+      </div>
+      <a href="">
+        <img class="imgSize" src="{{projectToShow.gallery1}}"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a >More Detailed </a>
+      </div>
+      <a href="">
+        <img class="imgSize" src="{{projectToShow.gallery2}}"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a >Graphical Plan</a>
+      </div>
+      <a href="">
+        <img class="imgSize" src="{{projectToShow.gallery3}}"/>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<!-- slider ends -->
+
+
+<!-- carousel pure css starts -->
+
+<div>
+    <div class="carousel">
+        <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide-image">
+                    <img src="{{projectToShow.gallery1}}">
+                </div>
+                <div class="carousel-controls">
+                    <label for="img-3" class="prev-slide">
+                        <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-2" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+                <div class="slide-image">
+                    <img src="{{projectToShow.gallery2}}">
+                </div>
+                <div class="carousel-controls">
+                    <label for="img-1" class="prev-slide">
+                        <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-3" class="next-slide">
+                        <span>&rsaquo;</span>
+                    </label>
+                </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+                <div class="slide-image">
+                    <img src="{{projectToShow.gallery3}}">
+                </div>
+                <div class="carousel-controls">
+                    <label for="img-2" class="prev-slide">
+                        <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-1" class="next-slide">
+                        <span>&rsaquo;</span>
+                    </label>
+                </div>
+            </li>
+            <div class="carousel-dots">
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            </div>
+        </ul>
+    </div>
+</div>
+

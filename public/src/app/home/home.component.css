@@ -1,0 +1,135 @@
+* {
+    margin:0px;
+    padding:0px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+table {
+    border-spacing: 0px;
+    text-align: center;
+}
+
+#pageName{
+    font-family: 'Quicksand', sans-serif;
+}
+.projectsPage{
+    width: 8%;
+    border-top: 2px solid black;
+    margin-left: 46%;
+    text-align: center;
+}
+
+#allProjects{
+    text-align: center;
+    display: grid;
+    
+    /* margin:auto; */
+}
+
+
+td img:hover {
+    opacity: 1;
+}
+
+table tr span td {
+    height: 330px;
+    width: 330px;
+}
+
+img{
+    height: 330px;
+    width: 330px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.tddesign{
+    height: 330px;
+    width: 330px;
+    /* opacity: 0.5;
+    transition: 0.5s; */
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+  .tddesign td {
+    height: 330px;
+    width: 330px;
+    text-align: center;
+    /* vertical-align: middle rabotaet tolko dlya table */
+    vertical-align: middle;
+    background-color:white;
+
+}
+
+/* links design below */
+.addProjectLinks{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+    
+}
+.addProjectLinks:hover, .active{
+    border-top: 2px solid black;
+}
+a {
+    text-decoration:none;
+    color: rgb(102, 95, 95);
+    
+}
+a:hover, header nav.menu .menu-item.active > a, #sidebar .menu-item.active>a, .gallery-nav a:hover {
+    color: rgba(0, 0, 0, 1);
+    opacity:1;
+}
+header.layout-logo-center .addProjectLinks {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* for medium devices */
+/* @media (min-width: 481px){
+
+
+    #allProjects{
+        text-align: center;
+        display: grid;
+        
+        margin:auto; 
+    }
+
+    table tr span td {
+        height: 160px;
+        width: 160px;
+    }
+    
+    img{
+        height: 160px;
+        width: 160px;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+    
+    .tddesign{
+        height: 160px;
+        width: 160px;
+        /* opacity: 0.5;
+        transition: 0.5s; 
+        display: inline-block;
+        font-family: 'Quicksand', sans-serif;
+    }
+      .tddesign td {
+        height: 160px;
+        width: 160px;
+        text-align: center;
+        /* vertical-align: middle rabotaet tolko dlya table 
+        vertical-align: middle;
+        background-color:white;
+    
+    }
+
+
+} */
