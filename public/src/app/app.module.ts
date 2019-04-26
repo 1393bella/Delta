@@ -14,7 +14,7 @@ import { HttpService } from './http.service';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
-import { config } from './config'
+import { config } from './config' // allow to read info about google API_KEY  from config.js folder
 
 
 @NgModule({
