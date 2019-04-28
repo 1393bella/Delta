@@ -39,7 +39,8 @@
   .hero-bkg-animated {
     background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
     width: 90%;
-    margin-left:50px;
+    margin-right: 35px;
+    margin-left: 35px;
     text-align: center;
     height: 100%;
     padding-top: 120px;
